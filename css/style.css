@@ -1,0 +1,19 @@
+body{
+    background-color: gold;
+}
+header h1 {
+    text-align: center;
+    color : green
+}
+
+nav ul li {
+display :inline-block ;
+margin-top: auto;
+margin-left: auto;
+list-style: none;
+}
+
+#house{
+ color: blue
+    width: 25px;
+}
