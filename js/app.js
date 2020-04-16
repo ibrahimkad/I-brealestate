@@ -1,6 +1,6 @@
 
 'use strict'
-var greeting = alert('Welcome to your Dream World')
+var greeting = alert('Welcome to your Dream World');
 var order = prompt('you want house or mansion');
 while (order !== 'house' && order !== 'mansion') {
     order = prompt('please write house or mansion');
@@ -13,7 +13,7 @@ var showHouse = function () {
         console.log(numbers);
         
         if (order === "house") {
-            console.log(order)
+            console.log(order);
             item = item + '<img src="pic/house.jpg">';
         } else if (order === "mansion") {
             item = item + '<img src ="pic/mansion.jpg">';
@@ -22,7 +22,7 @@ var showHouse = function () {
        // }
           
           
-          console.log(numbers)
+          console.log(numbers);
     }
     return item;
 }  // document.write(showHouse);
