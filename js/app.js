@@ -1,6 +1,6 @@
 
 'use strict'
-
+var greeting = alert('Welcome to your Dream World')
 var order = prompt('you want house or mansion');
 while (order !== 'house' && order !== 'mansion') {
     order = prompt('please write house or mansion');
